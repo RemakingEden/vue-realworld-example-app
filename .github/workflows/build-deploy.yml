@@ -13,6 +13,6 @@ jobs:
       - name: Run Nuclei
         uses: projectdiscovery/nuclei-action@main
         with:
-          target: http://213.168.250.216/#/
+          target: http://testphp.vulnweb.com/
           github-report: true
           github-token: ${{ secrets.GITHUB_TOKEN }}
